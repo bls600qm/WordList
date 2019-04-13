@@ -36,7 +36,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="backWithSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cd9-yc-RNF"/>
                                     <segue destination="v41-LM-yLd" kind="presentation" id="inp-DZ-iC5"/>
                                 </connections>
                             </button>
@@ -183,10 +182,18 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="C1Q-ic-Rau" id="CkC-fb-84m"/>
+                            <outlet property="delegate" destination="C1Q-ic-Rau" id="UdY-fQ-iIF"/>
+                        </connections>
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="一覧" id="XdK-YZ-nB9">
-                        <barButtonItem key="leftBarButtonItem" title="もどる" id="fde-VF-5sg"/>
+                        <barButtonItem key="leftBarButtonItem" title="もどる" id="fde-VF-5sg">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" id="h7b-Sj-niA"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="37x-OV-W0d">
                             <connections>
                                 <segue destination="G5C-9t-pCV" kind="show" id="yA6-LC-yho"/>
