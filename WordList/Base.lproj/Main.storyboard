@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="140" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--Question View Controller-->
         <scene sceneID="YLo-sc-6Cn">
             <objects>
-                <viewController id="Dzd-El-Nxy" sceneMemberID="viewController">
+                <viewController id="Dzd-El-Nxy" customClass="QuestionViewController" customModule="WordList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rch-Hg-DLC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="808.79999999999995" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--Finish View Controller-->
         <scene sceneID="BJo-Vz-GoA">
             <objects>
-                <viewController id="HN1-bg-e3W" sceneMemberID="viewController">
+                <viewController id="HN1-bg-e3W" customClass="FinishViewController" customModule="WordList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gjK-Xv-VjR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,7 +154,7 @@
         <!--一覧-->
         <scene sceneID="AaO-i1-4SH">
             <objects>
-                <tableViewController id="C1Q-ic-Rau" sceneMemberID="viewController">
+                <tableViewController id="C1Q-ic-Rau" customClass="ListTableTableViewController" customModule="WordList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dGK-Of-bfQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
         <!--Title-->
         <scene sceneID="MuY-IR-cWf">
             <objects>
-                <viewController id="G5C-9t-pCV" sceneMemberID="viewController">
+                <viewController id="G5C-9t-pCV" customClass="AddViewController" customModule="WordList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U1i-RT-dWb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
