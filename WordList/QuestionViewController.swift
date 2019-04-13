@@ -26,7 +26,7 @@ class QuestionViewController: UIViewController {
         answerLabel.text = ""
     }
     
-    override func viewWillAppear(_ animated: Bool) { //Viewが現れた時に呼ばれる
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
         shuffle()

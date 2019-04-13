@@ -36,6 +36,7 @@ class ListTableTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return wordArray.count
     }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ListTableViewCell
         
